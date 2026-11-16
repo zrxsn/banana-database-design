@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="rogLiI2bqYkV-HuYTVBJ">
+    <mxGraphModel dx="1456" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;3NF&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="90" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Account ID" vertex="1">
+          <mxGeometry height="70" width="90" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="154.5" as="sourcePoint" />
+            <mxPoint x="200" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="AccountStatus, Email, IsVerified, LastLoginDate,Password, Phone, RegisterDate, Address" vertex="1">
+          <mxGeometry height="30" width="730" x="210" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="OrderID " vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="224.5" as="sourcePoint" />
+            <mxPoint x="210" y="224.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="OrderDate, OrderStatus, CodeID,PaymentID, AccountID, DeliveryID" vertex="1">
+          <mxGeometry height="30" width="510" x="220" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="CodeID" vertex="1">
+          <mxGeometry height="30" width="60" x="65" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="125" y="284.5" as="sourcePoint" />
+            <mxPoint x="205" y="284.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;DiscountRate, Status, CodeType,ExpiredDate, StartDate, UsageLimit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="450" x="210" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="OrderID" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="344.5" as="sourcePoint" />
+            <mxPoint x="200" y="344.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Refund, CancelDate, Reason" vertex="1">
+          <mxGeometry height="30" width="410" x="210" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PaymentID" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-16" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="394.5" as="sourcePoint" />
+            <mxPoint x="200" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="AmountDue, PaymentStatus, PaymentDate, ReceiptID" vertex="1">
+          <mxGeometry height="30" width="410" x="210" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ReceiptID" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-19" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="125" y="444.5" as="sourcePoint" />
+            <mxPoint x="225" y="444.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="TotalPaid, ReceiptDate" vertex="1">
+          <mxGeometry height="30" width="440" x="240" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="DeliveryID" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-23" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="125" y="494.5" as="sourcePoint" />
+            <mxPoint x="225" y="494.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="CompanyName, ContactPhone, DeliveryType, DeliveryFee&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="620" x="230" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="ProductID" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="550" as="sourcePoint" />
+            <mxPoint x="210" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="ProductName, ProductDescription, WarrantyPeriod,Price, ProductPromotion, ProductInStock, ProductCategory" vertex="1">
+          <mxGeometry height="30" width="800" x="220" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ProductID" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="604.5" as="sourcePoint" />
+            <mxPoint x="200" y="604.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;license key ,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;expire date ,&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;download link&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="250" x="210" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(OrderID,ProductID)" vertex="1">
+          <mxGeometry height="30" width="110" x="50" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="654.5" as="sourcePoint" />
+            <mxPoint x="230" y="654.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Quantity" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(CodeID, Condition)" vertex="1">
+          <mxGeometry height="30" width="150" x="30" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="RdU74lyLd2Hu9EDDG2H6-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="(PaymentID,PaymentMethods)" vertex="1">
+          <mxGeometry height="30" width="170" x="50" y="730" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
