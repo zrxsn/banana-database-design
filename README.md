@@ -39,15 +39,11 @@ Open the PDFs directly in GitHub or a PDF reader. Open `.drawio` files in diagra
 
 This is a five-person group project. All source designs and reports are credited to the original ITDS221 Section 02 Group 02 team:
 
-- นายสุรักษ์ งามบุษกรโสภณ
+- นาย สุรักษ์ งามบุษกรโสภณ
 - นาย คฑาเทพ เทพหัสดิน ณ อยุธยา
-- นายศุภณัฐ แก้วการะเวก
-- นายภัทร์ธนัชนนท์ สุดถาวรเจริญ
+- นาย ศุภณัฐ แก้วการะเวก
+- นาย ภัทร์ธนัชนนท์ สุดถาวรเจริญ
 - นาย รัฐพงศ์ คูสกุลธรรม
-
-**Portfolio maintainer:** [Raymond14725836](https://github.com/Raymond14725836).
-
-The project discussion records Raymond's work on the relational schema and 3NF normalization. Other deliverables remain attributed to the group; this repository does not claim sole authorship of the full project.
 
 ## Repository preparation
 
